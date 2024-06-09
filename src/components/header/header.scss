@@ -1,0 +1,99 @@
+.promo {
+    min-height: 640px;
+    padding: 52px 0 97px 0;
+    //background: url("../img/main_bg.jpeg") center (center/cover) no-repeat;
+    &__wrapper {
+        display: block;
+        text-align: center;
+    }
+    &__header {
+        margin-top: 97px;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+    &__divider {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_mt23 {
+            margin-top: 23px;
+        }
+        &_one {
+            width: 60px;
+            height: 1px;
+            background-color: rgb(255, 255, 255);
+            margin-right: 25px;
+            &_black {
+                background-color: rgb(0, 0, 0);
+            }
+        }
+        &_two {
+            width: 60px;
+            height: 1px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 25px;
+            &_black {
+                background-color: rgb(0, 0, 0);
+            }
+        }
+        
+    }
+    &__subheader {
+        margin-top: 32px;   
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    &__subsubheader {
+        margin-top: 23px;   
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    &__button {
+        margin-top: 18px;
+        border: 1px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        border-radius: 3px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(196, 196, 196, 0);
+        width: 120px;
+        height: 30px;
+    }
+}
+.header {
+    display: flex;
+    align-items: center;
+    &__logo {
+        left: 205px;
+        top: 31px;   
+    }
+    &__name {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-right: 40px;
+    }
+    &__our {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-right: 40px;
+    }
+    &__pleasure {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-right: 40px;
+    }
+    
+    
+}
