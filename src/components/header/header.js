@@ -1,6 +1,7 @@
-import React from "react"
+import React from "react";
 
 import './header.scss';
+import '../../index.scss';
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
             <header className="header">
                 
                 <div className="header__logo">
-                    <img src="icons/coffee_beans.png" alt="logo"/>
+                    <img src="assets/coffee_beans.png" alt="logo"/>
                 </div>
                 <div className="header__name">
                     Coffee house
@@ -26,7 +27,7 @@ const Header = () => {
 
                 <div className="promo__divider">
                     <div className="promo__divider_one"></div>
-                    <img src="icons/coffee_beans_main.png" alt=""/>
+                    <img src="assets/coffee_beans_main.png" alt=""/>
                     <div className="promo__divider_two"></div>
                 </div>
 

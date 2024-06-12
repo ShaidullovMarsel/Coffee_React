@@ -1,6 +1,8 @@
-import React from "react"
+import React from 'react';
+
 
 import './about.scss';
+import '../../index.scss';
 
 const About = () => {
     return (
@@ -9,7 +11,7 @@ const About = () => {
             <h2 className="about__us">About Us</h2>
             <div className="promo__divider promo__divider_mt23">
                 <div className="promo__divider_one  promo__divider_one_black"></div>
-                <img src="icons/coffee_beans_black.png" alt=""/>
+                <img src="assets/coffee_beans_black.png" alt=""/>
                 <div className="promo__divider_two promo__divider_two_black"></div>
             </div>
             <h2 className="about__descr">
