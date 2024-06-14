@@ -13,10 +13,10 @@ const Header = () => {
                     <img src="assets/coffee_beans.png" alt="logo"/>
                 </div>
                 <div className="header__name">
-                    Coffee house
+                    <a href="/">Coffee house</a>
                 </div>
                 <div className="header__our">
-                    Our coffee
+                    <a href="/our_coffee">Our coffee</a>
                 </div>
                 <div className="header__pleasure">
                     For your pleasure

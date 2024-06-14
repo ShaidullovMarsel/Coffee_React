@@ -1,0 +1,13 @@
+.promotwo {
+    min-height: 260px;
+    background: url("../../../public/assets/header_coffee.jpeg") center (center/cover) no-repeat;
+
+    &__descr {
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+}
